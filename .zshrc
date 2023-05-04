@@ -5,6 +5,9 @@
 
 export PATH=$PATH:$HOME/bin
 
+# SYSTEM CONFIGURATION
+export EDITOR=/usr/local/bin/nvim
+
 # DOTFILES
 alias dgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
